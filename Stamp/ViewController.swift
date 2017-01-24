@@ -60,7 +60,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             
             imageView.center = CGPoint(x: location.x, y: location.y)
             
-            self.imageView.addSubview(imageView)
+            self.view.addSubview(imageView)
         }
     }
     
